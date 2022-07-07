@@ -1,0 +1,16 @@
+config:
+  clientID: "XXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com"
+  clientSecret: "XXXXXXXXXXXXXXXXXXXXXX"
+  cookieSecret: "XXXXXXXXXXXXXXXXXXXXXX"
+  configFile: |-
+    provider = "google"
+    email_domains = [ "gmail.com" ]
+    cookie_expire = "20m"
+    cookie_refresh = "10m"
+    cookie_secure = false
+    cookie_httponly = true
+    ssl_insecure_skip_verify = true
+    upstreams = ["http://kubernetes-dashboard.kubernetes-dashboard:80/"]
+    redirect_url = "http://kubernetes-dashboard.org/oauth2/callback"
+    pass_authorization_header = true
+    force_https = false
