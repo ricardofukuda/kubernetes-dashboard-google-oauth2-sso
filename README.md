@@ -64,7 +64,7 @@ helm upgrade --install oauth2-proxy -n oauth2-proxy oauth2-proxy/oauth2-proxy --
 Access the SSO login page:
 https://kubernetes-dashboard.org/
 
-* Additional Resources
+** Additional Resources: **
 - Install: https://oauth2-proxy.github.io/oauth2-proxy/docs/
 - Configuration: - https://oauth2-proxy.github.io/oauth2-proxy/docs/configuration/overview
 - Endpoints: https://oauth2-proxy.github.io/oauth2-proxy/docs/features/endpoints
