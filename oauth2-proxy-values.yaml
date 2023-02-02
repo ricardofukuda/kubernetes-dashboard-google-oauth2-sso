@@ -14,3 +14,29 @@ config:
     redirect_url = "http://kubernetes-dashboard.org/oauth2/callback"
     pass_authorization_header = true
     force_https = false
+    
+# Google Workspace example using oauth2-proxy docker:
+#provider = "google"
+#http_address = ":4180"
+#https_address = ":4180"
+#upstreams = ["http://localhost:16686/"]
+#redirect_url = "https://yyyyyyyyyyy.com/oauth2/callback"
+#client_id = "yyyyyyyyyyyyyyyyy"
+#client_secret = "yyyyyyyyyyyyyyyyy"
+#oidc_issuer_url = "https://accounts.google.com"
+#cookie_secure = "true"
+#cookie_secret = "yyyyyyyyyyyyyyyyy"
+#email_domains = ["yyyyyyyyyyyy.com.br"]
+#user_id_claim = "email"
+#oidc_groups_claim = "groups"
+#oidc_email_claim = "email"
+#skip_provider_button = "true"
+#google_group = "yyyyy@yyyyyyyyyyyy.com.br"
+#google_admin_email = "yyyyy@yyyyyyyyyyyy.com.br"
+#google_service_account_json = "/google_service_account_json/google_service_account.json"
+#ssl_insecure_skip_verify = false
+#ssl_upstream_insecure_skip_verify = "true"
+#force_https = true
+#reverse_proxy = true
+#cookie_expire = "30m"
+#cookie_refresh = "10m"
